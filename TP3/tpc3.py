@@ -25,6 +25,16 @@ def somador_on_off(inp):
         elif char == '=':
             print(resultado)
             i += 1
+        elif char == '-':
+            i += 1
+            char = chr(content[i])
+            if re.match(r'\d', char) and somar:
+                resultado_aux = 0
+                while i < len(content) and re.match(r'\d', chr(content[i])):
+                    resultado_aux *= 10
+                    resultado_aux += int(chr(content[i]))
+                    i += 1
+                resultado -= resultado_aux
         elif re.match(r'\d', char) and somar:
             resultado_aux = 0
             while i < len(content) and re.match(r'\d', chr(content[i])):
