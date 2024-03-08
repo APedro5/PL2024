@@ -1,0 +1,15 @@
+Select id, nome, salario From empregados Where salario >= 820
+
+Select id From empregados
+
+Select nome, salario From empregados
+
+Select id, nome, salario From empregados Where nome = 'Manuel'
+
+Select id, nome, salario From empregados Where salario >= 820 and nome = 'Maria'
+
+Select id,
+       nome,
+       salario
+From empregados
+Where salario >= 820
