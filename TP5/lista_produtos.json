@@ -1,0 +1,14 @@
+[
+    {"cod": "01", "nome": "Água", "quant": 8, "preco": 0.50},
+    {"cod": "02", "nome": "Sumo Laranja", "quant": 8, "preco": 1.60},
+    {"cod": "03", "nome": "Sumo Ananás", "quant": 8, "preco": 1.60},
+    {"cod": "04", "nome": "Cola", "quant": 8, "preco": 1.70},
+    {"cod": "05", "nome": "Cola Zero", "quant": 8, "preco": 1.70},
+    {"cod": "06", "nome": "Bolo Laranja", "quant": 8, "preco": 0.60},
+    {"cod": "07", "nome": "Bolo Cenoura", "quant": 8, "preco": 0.60},
+    {"cod": "08", "nome": "Bolo Leite", "quant": 8, "preco": 0.70},
+    {"cod": "09", "nome": "Bolo Chocolate", "quant": 8, "preco": 0.80},
+    {"cod": "10", "nome": "Barrita Cereias", "quant": 8, "preco": 1.00},
+    {"cod": "11", "nome": "Barrita Chocolate", "quant": 8, "preco": 1.10},
+    {"cod": "12", "nome": "Barrita Proteica", "quant": 8, "preco": 1.20}
+]
