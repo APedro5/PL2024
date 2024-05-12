@@ -3,10 +3,12 @@
 # 
 ## Gramática Independente do Contexto
 Gramática independente do contexto para a seguinte linguagem:
+    ```
     ? a
     b = a * 2 / (27 - 3)
     ! a + b
     c = a * b / (a / b)
+    ```
 A gramática definida foi:
 
     ```
